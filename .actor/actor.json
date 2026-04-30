@@ -1,0 +1,10 @@
+{
+  "actorSpecification": 1,
+  "name": "indiehackers-posts-scraper",
+  "title": "Indie Hackers Posts Scraper",
+  "description": "Pull every public Indie Hackers post with title, slug, URL, description, image, and author metadata. Discover posts via sitemap then enrich each with OG tags. Filter by section (newest, starting-up, stories) and export titles, links, and excerpts to clean JSON, CSV, or Excel for content research and trend tracking.",
+  "version": "1.0",
+  "buildTag": "latest",
+  "dockerfile": "./Dockerfile",
+  "input": "./input_schema.json"
+}
